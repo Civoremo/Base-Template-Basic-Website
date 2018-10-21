@@ -4,13 +4,16 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    align-items: flex-start;
 }
 
 .navFont() {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-decoration: none;
+    color: rgb(10, 140, 226);
+    font-family: 'Montserrat', sans-serif;
 }
 
-.devB() {
-    border-color: 1px solid red;
+.devB(@color: red) {
+    border: 1px solid @color;
 }
