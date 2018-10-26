@@ -1,13 +1,15 @@
 .navigation {
     .center();
-    width: 800px;
+    width: 100%;
     min-height: 100px;
-    flex-direction: column;
+    background-color: white;
+    // border-bottom: 1px dashed darkblue;
     // .devB(blue);
 
     .nav-bar {
-        padding: 0 0 12px 0;
-        margin: 0 0 5px 0;
+        padding: 0 0 5px 0;
+        width: 800px;
+        align-items: center;
         // .devB();
         .logo-img {
             // .devB(black);
@@ -19,7 +21,7 @@
                 width: 250px;
                 height: auto;
                 background-color: darkblue;
-                margin: 0 0 15px 0;
+                margin: 15px 0 15px 0;
                 // .devB(green);
             }
         }
@@ -42,6 +44,11 @@
                     // .devB(pink);
                     .navFont();
                     width: 70px;
+
+                    &:hover {
+                        color: gray;
+                        text-decoration: underline;
+                    }
                 }
             }
             .social-links {
